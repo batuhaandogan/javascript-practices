@@ -66,3 +66,17 @@ temp = thermos.temperature; // 26 in C
 "use strict";
 capitalizeString("hello!");
 import {capitalizeString} from "string_functions"
+
+
+// ES6: Use export to Reuse a Code Block
+
+"use strict";
+export const foo = "bar";
+export const bar = "foo";
+
+
+// ES6: Use * to Import Everything from a File
+
+"use strict";
+
+import * as myFirstStrict from "capitalize_strings";
