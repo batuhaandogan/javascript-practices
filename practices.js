@@ -80,3 +80,24 @@ export const bar = "foo";
 "use strict";
 
 import * as myFirstStrict from "capitalize_strings";
+
+
+// ES6: Create an Export Fallback with export default
+
+"use strict";
+export default function subtract(x,y) {return x - y;}
+
+//  export default function subtract(x,y) {
+//     return x - y;
+// }
+
+
+
+// ES6: Import a Default Export
+
+
+
+"use strict";
+subtract(7,4);
+
+import subtract from "math_functions
