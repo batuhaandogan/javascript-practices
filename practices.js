@@ -101,3 +101,12 @@ export default function subtract(x,y) {return x - y;}
 subtract(7,4);
 
 import subtract from "math_functions
+
+
+
+// Regular Expressions: Match Literal Strings
+
+
+let waldoIsHiding = "Somewhere Waldo is hiding in this text.";
+let waldoRegex = /Waldo/; // Change this line
+let result = waldoRegex.test(waldoIsHiding);
