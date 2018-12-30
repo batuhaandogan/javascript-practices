@@ -110,3 +110,11 @@ import subtract from "math_functions
 let waldoIsHiding = "Somewhere Waldo is hiding in this text.";
 let waldoRegex = /Waldo/; // Change this line
 let result = waldoRegex.test(waldoIsHiding);
+
+
+
+// Regular Expressions: Match a Literal String with Different Possibilities
+
+let petString = "James has a pet cat.";
+let petRegex = /change/; // Change this line
+let result = petRegex.test(petString);
