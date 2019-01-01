@@ -118,3 +118,12 @@ let result = waldoRegex.test(waldoIsHiding);
 let petString = "James has a pet cat.";
 let petRegex = /change/; // Change this line
 let result = petRegex.test(petString);
+
+
+
+// Regular Expressions: Ignore Case While Matching
+
+
+let myString = "freeCodeCamp";
+let fccRegex = /change/; // Change this line
+let result = fccRegex.test(myString);
