@@ -123,7 +123,14 @@ let result = petRegex.test(petString);
 
 // Regular Expressions: Ignore Case While Matching
 
-
 let myString = "freeCodeCamp";
-let fccRegex = /change/; // Change this line
+let fccRegex = /freecodecamp/i; // Change this line
 let result = fccRegex.test(myString);
+
+
+// Regular Expressions: Extract Matches
+
+
+let extractStr = "Extract the word 'coding' from this string.".match(/coding/);
+let codingRegex = /coding/; // Change this line
+let result = extractStr; // Change this line
