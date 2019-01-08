@@ -142,3 +142,12 @@ let result = extractStr; // Change this line
 let twinkleStar = "Twinkle, twinkle, little star";
 let starRegex = /twinkle/gi; // Change this line
 let result = twinkleStar.match(starRegex); // Change this line
+
+
+
+// Regular Expressions: Match Anything with Wildcard Period
+
+
+let exampleStr = "Let's have fun with regular expressions!";
+let unRegex = /change/; // Change this line
+let result = unRegex.test(exampleStr);
